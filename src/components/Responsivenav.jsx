@@ -28,7 +28,7 @@ function Responsivenav() {
                     <div className="navBurger">
                         <a href="https://github.com/OtoAdAstra" target="_blank">GitHub <FiExternalLink className="link"/></a>
                         <a href="https://www.linkedin.com/in/otosharvashidze/" target="_blank">LinkedIn <FiExternalLink className="link"/></a>
-                        <a href="https://www.instagram.com/otoexastris/" target="_blank">Instagram <FiExternalLink className="link"/></a>
+                        <a href="https://www.instagram.com/otoadastra/" target="_blank">Instagram <FiExternalLink className="link"/></a>
                         <a href="https://x.com/OSharvashidze" target="_blank">Twitter <FiExternalLink className="link"/></a>
                         <Darktheme/>
                         <button onClick={() => setIsOpen(false)}><IoIosCloseCircle /></button>
