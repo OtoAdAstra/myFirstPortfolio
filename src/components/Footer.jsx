@@ -1,11 +1,11 @@
-import "./Footer.css"
+import "./Footer.css";
 
 function Footer() {
-    return(
-        <div className="footer">
-            <h6>copyright © 2024 all rights reserved</h6>
-        </div>
-    )
+  return (
+    <div className="footer">
+      <h6>copyright © 2024 all rights reserved</h6>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
