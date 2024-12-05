@@ -12,7 +12,7 @@ function Welcome() {
         </h3>
         <h3>
           <span className="var">let</span> <span className="name">age</span> ={" "}
-          <span className="value">20</span>;
+          <span className="value">21</span>;
         </h3>
         <h3>
           <span className="var">const</span>{" "}
