@@ -6,7 +6,7 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 120%;
   }
 }
 
@@ -24,7 +24,7 @@
 .welcome-txt h2 {
   font-family: var(--family1);
   font-size: var(--font3);
-  animation: typing 1.6s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 1.6s steps(20, end), blink-caret 0.85s step-end infinite;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
