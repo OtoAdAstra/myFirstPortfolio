@@ -34,7 +34,7 @@ function Welcome() {
         </div>
       </div>
       <div className="welcome-img">
-        <img src={me} />
+        <img src={me} alt="logo of me" />
       </div>
     </div>
   );

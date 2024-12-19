@@ -4,7 +4,7 @@ import { HiOutlineBars4 } from "react-icons/hi2";
 import { FiExternalLink } from "react-icons/fi";
 import { IoIosCloseCircle } from "react-icons/io";
 import { useState } from "react";
-import Darktheme from "./Darktheme";
+import Darktheme from "../logic/Darktheme";
 
 function Responsivenav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ function Responsivenav() {
   return (
     <div className="nav">
       <div className="nav-left">
-        <img src={me} />
+        <img src={me} alt="me" />
       </div>
       <div className="nav-right">
         <button onClick={toggleMenu}>
@@ -26,18 +26,28 @@ function Responsivenav() {
       {isOpen && (
         <>
           <div className="navBurger">
-            <a href="https://github.com/OtoAdAstra" target="_blank">
+            <a
+              href="https://github.com/OtoAdAstra"
+              target="_blank"
+              rel="noreferrer">
               GitHub <FiExternalLink className="link" />
             </a>
             <a
               href="https://www.linkedin.com/in/otosharvashidze/"
-              target="_blank">
+              target="_blank"
+              rel="noreferrer">
               LinkedIn <FiExternalLink className="link" />
             </a>
-            <a href="https://www.instagram.com/otoadastra/" target="_blank">
+            <a
+              href="https://www.instagram.com/otoadastra/"
+              target="_blank"
+              rel="noreferrer">
               Instagram <FiExternalLink className="link" />
             </a>
-            <a href="https://x.com/OSharvashidze" target="_blank">
+            <a
+              href="https://x.com/OSharvashidze"
+              target="_blank"
+              rel="noreferrer">
               Twitter <FiExternalLink className="link" />
             </a>
             <Darktheme />
