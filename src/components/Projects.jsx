@@ -1,7 +1,7 @@
 import "./Projects.css";
 import bril from "../assets/bril.png";
 import mariotto from "../assets/mariotto.png";
-import musk from "../assets/musk.png";
+import astroshop from "../assets/astroshop.png";
 
 function Projects() {
   return (
@@ -9,9 +9,22 @@ function Projects() {
       <h2>Projects:</h2>
 
       <div className="projectcard">
-        <a href="https://mariotto.ge/" target="_blank">
+        <a
+          href="https://astroshop-nine.vercel.app/"
+          target="_blank"
+          rel="noreferrer">
           <div className="card">
-            <img src={mariotto} />
+            <img src={astroshop} alt="astroshop" />
+            <div className="h3h5">
+              <h3>Astroshop</h3>
+              <h5>e-commerce website</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://mariotto.ge/" target="_blank" rel="noreferrer">
+          <div className="card">
+            <img src={mariotto} alt="travel company" />
             <div className="h3h5">
               <h3>Mariotto travel</h3>
               <h5>travel company</h5>
@@ -19,22 +32,12 @@ function Projects() {
           </div>
         </a>
 
-        <a href="https://bril.consulting/" target="_blank">
+        <a href="https://bril.consulting/" target="_blank" rel="noreferrer">
           <div className="card">
-            <img src={bril} />
+            <img src={bril} alt="m&a company" />
             <div className="h3h5">
               <h3>Bril</h3>
               <h5>m&a company</h5>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://www.x.com" target="_blank">
-          <div className="card">
-            <img src={musk} />
-            <div className="h3h5">
-              <h3>Twitter</h3>
-              <h5>not X</h5>
             </div>
           </div>
         </a>
