@@ -17,7 +17,7 @@ function Projects() {
             <img src={astroshop} alt="astroshop" />
             <div className="h3h5">
               <h3>Astroshop</h3>
-              <h5>e-commerce website</h5>
+              <h5>E-commerce website</h5>
             </div>
           </div>
         </a>
@@ -27,7 +27,7 @@ function Projects() {
             <img src={mariotto} alt="travel company" />
             <div className="h3h5">
               <h3>Mariotto travel</h3>
-              <h5>travel company</h5>
+              <h5>Travel company</h5>
             </div>
           </div>
         </a>
@@ -37,7 +37,7 @@ function Projects() {
             <img src={bril} alt="m&a company" />
             <div className="h3h5">
               <h3>Bril</h3>
-              <h5>m&a company</h5>
+              <h5>M&A company</h5>
             </div>
           </div>
         </a>
