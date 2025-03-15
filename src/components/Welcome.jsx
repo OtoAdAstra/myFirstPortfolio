@@ -21,15 +21,7 @@ function Welcome() {
         </h3>
         <div className="about-me">
           <p>
-            React developer by day, web designer by night, and a full-time
-            coffee enthusiast. Studying Computer Science in Tbilisi while
-            turning bugs into features and pixels into magic. When I’m not
-            crafting clean code and pixel-perfect designs, I’m perfecting my
-            coffee brewing skills—because why just debug when you can also make
-            things look fabulous? With a passion for blending creativity and
-            technology, I strive to make every project both functional and
-            visually stunning. Let’s create something extraordinary and sprinkle
-            a little magic into the digital world!
+A dedicated MERN stack developer with a knack for building dynamic web apps that work as smoothly as my morning routine (which is just water, no coffee). From React.js to Node.js, I’ve got the tools to make websites that stand out. When I’m not coding, I’m either stargazing, pondering the meaning of life, or crushing it in blitz chess. I thrive on problem-solving, constantly learning new tech, and staying ahead of the curve in an ever-evolving field. Let’s build something amazing!
           </p>
         </div>
       </div>
