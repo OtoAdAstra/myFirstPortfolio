@@ -21,7 +21,7 @@ function Welcome() {
         </h3>
         <div className="about-me">
           <p>
-A dedicated MERN stack developer with a knack for building dynamic web apps that work as smoothly as my morning routine (which is just water, no coffee). From React.js to Node.js, I’ve got the tools to make websites that stand out. When I’m not coding, I’m either stargazing, pondering the meaning of life, or crushing it in blitz chess. I thrive on problem-solving, constantly learning new tech, and staying ahead of the curve in an ever-evolving field. Let’s build something amazing!
+A dedicated MERN stack developer with a knack for building dynamic web apps that work as smoothly as my morning routine (which is just water, no coffee). From React.js to Node.js, I’ve got the tools to make websites that stand out. When I’m not coding, I’m either stargazing, pondering the meaning of life, or crushing it in blitz chess. I thrive on problem-solving, constantly learning new tech, and staying ahead of the curve in an ever-evolving field. + I love animals
           </p>
         </div>
       </div>
